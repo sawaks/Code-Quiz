@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quize</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div id="to-score-page" class="scores">View Score History</div>
+    <div class="timer"> Time: <span id="time">60</span></div>
+  </header>
+  <!-- start page -->
+  <div id="start-page" class="top screen">
+    <h1>Coding Quiz Challenge</h1>
+    <p>Take a timed quiz on JavaScript fundamentals! Try to get high scores as much as you can. There is time limited
+      for 60 seconds. Good Luck! </p>
+    <button id="start-btn">START</button>
+  </div>
+  <!-- quiz page -->
+  <div id="quiz-page" class="game screen">
+    <h1 id="text-question"></h1>
+    <ul id="list-answer"></ul>
+    <div id="reaction-container">
+      <p id="result-reaction"></p>
+    </div>
+  </div>
+  <!-- initials input page -->
+  <div id="input-page" class="result screen">
+    <h1>All Done!</h1>
+    <p>Your final score is <span id="result-points"></span>.</p>
+    <form action="#" name="form">
+      <p>Enter your initials: <input id="initials" type="text" name="field"></p>
+    </form>
+    <button id="submit-btn">SUBMIT</button>
+  </div>
+  <!-- score page -->
+  <div id="score-page" class="score screen">
+    <h1>Score History</h1>
+    <ul id="score-list"></ul>
+    <button id="back-btn">Retry</button>
+    <button id="clear-btn">Clear Score History</button>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

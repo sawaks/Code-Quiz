@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #FEFBE9;
+}
+
+h1 {
+    color: #183A1D;
+    padding-bottom: 30px;
+    letter-spacing: 0.02em;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: #183A1D;
+}
+
+.scores {
+    font-weight: bold;
+    color: #183A1D;
+    border-bottom: #183A1D 2px solid;
+    cursor: pointer;
+}
+
+.scores:hover {
+    color: #F0A04B;
+    border-bottom: #F0A04B 2px solid;
+
+}
+
+.timer {
+    color: #F0A04B;
+}
+
+#time {
+    color: #183A1D;
+}
+
+.screen {
+    width: 80%;
+    background: #E1EEDD;
+    padding: 30px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+p {
+    letter-spacing: 0.05em;
+    padding-bottom: 30px;
+}
+
+button {
+    font-size: 24px;
+    padding: 5px;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    background-color: #183A1D;
+    border: #183A1D solid 1px;
+    color: #E1EEDD;
+    border-radius: 6px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F0A04B;
+    border: #F0A04B solid 1px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    border: 1px #FEFBE9 solid;
+    border-radius: 6px;
+    background-color: #FEFBE9;
+    list-style: none;
+    padding: 5px;
+    color: #183A1D;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #F0A04B;
+    border: #F0A04B solid 1px;
+}
+
+.questionChoice {
+    margin-bottom: 15px;
+}
+
+.single-info {
+    margin-bottom: 15px;
+    background-color: #F0A04B;
+    border: #F0A04B solid 1px;
+
+}
+
+.btn-remove {
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 20px;
+
+}
+
+#input-page h1 {
+    color: #F0A04B;
+}
+
+div.is-hidden {
+    display: none;
+}
+
+div.is-visible {
+    display: block;
+}
+
+.game {
+    display: none;
+}
+
+.result {
+    display: none;
+}
+
+.score {
+    display: none;
+}
+
+#result-reaction {
+    color: #F0A04B;
+    font-weight: bold;
+}
+
+#result-points {
+    font-size: 20px;
+    color: #F0A04B;
+    font-weight: bold;
+
+}
