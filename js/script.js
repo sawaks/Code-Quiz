@@ -3,7 +3,6 @@ var startBtn = document.querySelector("#start-btn");
 var toScorePage = document.querySelector("#to-score-page");
 var timer = document.getElementsByClassName("timer");
 
-
 var quizPage = document.querySelector("#quiz-page");
 var textQuestion = document.querySelector("#text-question");
 var listAnswer = document.querySelector("#list-answer");
